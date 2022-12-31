@@ -1,0 +1,50 @@
+
+  h2{
+    text-align: center;
+  }
+  body {
+    margin: auto;
+   
+    font-family: 'Lexend Deca', sans-serif; 
+    color: #2E475D;    
+  }
+  
+  .wrapper{
+    margin: 200px ;
+    width: 70%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr;
+    background: #af0303;
+  }
+  .like,.dislike{
+    display: grid;
+    place-items : center;
+  }
+  .icon{
+    margin-top: 70px;
+    font-size: 80px;
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 5px 8px 15px #e9eced;
+    transition: .5s;
+  }
+  .icon:hover{
+    color: #880000;
+    transform: scale(1.2);
+  }
+  input{
+    margin-top: -50px;
+    margin-left: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: none;
+    font-size: 30px;
+    font-weight: 800;
+    pointer-events: none;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000101;
+  }
+ 
